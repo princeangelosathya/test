@@ -1,0 +1,6 @@
+flask
+pymysql
+cryptography
+python-dotenv
+anthropic
+mcp<2
