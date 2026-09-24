@@ -4,7 +4,7 @@ import importlib.util
 import os
 import sys
 
-MODS = ["flask", "flask_cors", "pymysql", "cryptography", "dotenv", "anthropic", "mcp"]
+MODS = ["flask", "pymysql", "cryptography", "dotenv", "anthropic", "mcp"]
 missing = [m for m in MODS if importlib.util.find_spec(m) is None]
 if missing:
     print("MISSING PACKAGES:", ", ".join(missing))
